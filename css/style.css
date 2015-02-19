@@ -13,7 +13,6 @@ body {
 	text-align: center;
 }
 
-
 .red, .green {
 	color: #eee;
 	cursor: pointer;
@@ -29,7 +28,6 @@ body {
 
 #status {
 	visibility: hidden;
-	/*display: none;*/
 }
 
 label.check-box {
