@@ -1,0 +1,44 @@
+body {
+	background: #f8f8f8;
+}
+
+.box, .status {
+	background: #eee;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	width: 200px;
+	padding: 24px;
+	margin: 24px;
+	display: inline-block;
+	text-align: center;
+}
+
+
+.red, .green {
+	color: #eee;
+	cursor: pointer;
+}
+
+.red {
+	background: #900;
+}
+
+.green {
+	background: #090;
+}
+
+#status {
+	visibility: hidden;
+	/*display: none;*/
+}
+
+label.check-box {
+	background: #eee;
+	border: 1px dotted #ccc;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 6px 24px;
+	display: inline-block;
+	cursor: pointer;
+	font-weight: normal;
+}
